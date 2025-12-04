@@ -2,6 +2,8 @@
 
 A minimal, responsive web interface for visualizing your HK & Macau trip itinerary (5-7 December 2026).
 
+🔗 **[Visit the Live Website](https://kawa-technology.github.io/HK-trip/)**
+
 ## Features
 
 ✨ **Interactive Timeline** - Visual timeline for each day with activities
