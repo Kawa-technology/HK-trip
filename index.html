@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hong Kong & Macau Trip Plan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🇭🇰 Hong Kong & Macau Anniversary Trip</h1>
+        <p class="dates">5-7 December 2025</p>
+    </header>
+
+    <main class="container">
+        <!-- Important Updates Section -->
+        <section class="tips-section" style="background: #fff3cd; border-left: 4px solid #e63946; padding: 1.5rem; margin-bottom: 2rem; border-radius: 8px;">
+            <h3 style="color: #e63946; margin-bottom: 1rem;">💡 Important Updates for Dec 2025</h3>
+            <div style="color: #1d3557; line-height: 1.8;">
+                <p><strong>1. AIE Expo:</strong> Confirmed! The <em>Global Artificial Intelligence Machines and Electronics Expo</em> is at The Venetian Cotai Expo Dec 4-6. <strong>Saturday (Dec 6) is the final day</strong> - perfect timing!</p>
+                <p><strong>2. M+ Museum:</strong> New addition to Day 3! Asia's global museum of visual culture in West Kowloon. Opens at 10 AM on Sundays.</p>
+                <p><strong>3. A11 Bus:</strong> Get off at Luard Road (Stop #9). Walk backwards slightly, turn left on Luard Road, then one block to Lockhart Road.</p>
+                <p><strong>4. Octopus Card:</strong> Get one at the airport - works on all transport. Download Citymapper app for navigation.</p>
+            </div>
+        </section>
+        <!-- Day 1 -->
+        <section class="day-section" id="day1">
+            <div class="day-header">
+                <h2>Day 1 — Friday, 5 Dec 2025</h2>
+                <p class="theme">Arrival, K-Town Sunset & Hipster Vibes</p>
+            </div>
+            <div class="timeline">
+                <div class="activity-card">
+                    <div class="time">15:30</div>
+                    <div class="content">
+                        <h3>Arrive HKG</h3>
+                        <p>Immigration & baggage claim</p>
+                        <p class="vibe-check">💡 <strong>Tip:</strong> Pick up "Hong Kong Goodies" voucher at the Tourist Board counter if available.</p>
+                        <a href="https://www.google.com/maps/search/?api=1&query=Hong+Kong+International+Airport" target="_blank" class="map-link">📍 View on Map</a>
+                    </div>
+                </div>
+
+                <div class="activity-card">
+                    <div class="time">16:15</div>
+                    <div class="content">
+                        <h3>Transport to Hotel</h3>
+                        <p>Cityflyer A11 → Luard Road (Stop #9). Walk ~3 min to hotel</p>
+                        <p class="vibe-check">✨ <strong>Vibe:</strong> The best way to see the city. Sit on the upper deck, front row for a scenic "tour" into the city.</p>
+                        <div class="transport-options">
+                            <button class="transport-btn" onclick="showTransport('hkg-hotel')">🚌 Transport Options</button>
+                            <div id="hkg-hotel" class="transport-details hidden">
+                                <ul>
+                                    <li><strong>Airport Bus A11:</strong> ~HK$40, 50-60 min</li>
+                                    <li><strong>Airport Express + MTR:</strong> ~HK$115, 35 min</li>
+                                    <li><strong>Taxi:</strong> ~HK$300-350, 30-40 min</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <a href="https://www.google.com/maps/search/?api=1&query=Luard+Road+Bus+Stop+Hennessy+Road+Wan+Chai" target="_blank" class="map-link">📍 A11 Bus Stop (Luard Rd)</a>
+                    </div>
+                </div>
+
+                <div class="activity-card">
+                    <div class="time">17:15</div>
+                    <div class="content">
+                        <h3>Check-in</h3>
+                        <p>The Wharney Hotel</p>
+                        <p class="vibe-check">⭐ <strong>Reality:</strong> Solid 4-star. Entrance is on Lockhart Road.</p>
+                        <a href="https://www.google.com/maps/search/?api=1&query=The+Wharney+Hotel+Hong+Kong" target="_blank" class="map-link">📍 View on Map</a>
+                    </div>
+                </div>
+
+                <div class="activity-card">
+                    <div class="time">17:45</div>
+                    <div class="content">
+                        <h3>To Kennedy Town</h3>
+                        <p>MTR: Wan Chai → Kennedy Town (Exit C)</p>
+                        <div class="transport-options">
+                            <button class="transport-btn" onclick="showTransport('wc-kt')">🚇 Transport Options</button>
+                            <div id="wc-kt" class="transport-details hidden">
+                                <ul>
+                                    <li><strong>MTR Island Line:</strong> ~HK$8, 15 min</li>
+                                    <li><strong>Tram:</strong> HK$3, 40 min (scenic route)</li>
+                                    <li><strong>Taxi:</strong> ~HK$60-80, 15 min</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <a href="https://www.google.com/maps/dir/Wan+Chai,+Hong+Kong/Kennedy+Town,+Hong+Kong" target="_blank" class="map-link">📍 View Route</a>
+                    </div>
+                </div>
+
+                <div class="activity-card">
+                    <div class="time">18:15</div>
+                    <div class="content">
+                        <h3>Sunset Walk</h3>
+                        <p>Belcher Bay Promenade (Walk towards the cargo pier)</p>
+                        <p class="vibe-check">✨ <strong>Vibe:</strong> Very chill. A massive open wooden boardwalk where locals walk dogs and watch the sunset over the cargo pier. Great for photos.</p>
+                        <a href="https://www.google.com/maps/search/?api=1&query=Belcher+Bay+Promenade+Kennedy+Town" target="_blank" class="map-link">📍 View on Map</a>
+                    </div>
+                </div>
+
+                <div class="activity-card">
+                    <div class="time">19:00</div>
+                    <div class="content">
+                        <h3>Dinner & Drinks</h3>
+                        <p>Winstons Coffee (Kennedy Town) - Shop 8, The Hudson, 11 Davis Street</p>
+                        <p class="vibe-check">⭐ <strong>Must Order:</strong> Espresso Martini & Sourdough Toasties. It's Friday night, so the vibe will be buzzing.</p>
+                        <a href="https://www.google.com/maps/search/?api=1&query=Winstons+Coffee+Kennedy+Town+Shop+8+The+Hudson+11+Davis+Street" target="_blank" class="map-link">📍 View on Map</a>
+                    </div>
+                </div>
+
+                <div class="activity-card">
+                    <div class="time">20:30</div>
+                    <div class="content">
+                        <h3>Night Stroll</h3>
+                        <p>Forbes Street - Wall of Trees</p>
+                        <p class="vibe-check">📸 <strong>Photo Spot:</strong> Massive Banyan trees growing into stone walls. Spooky-cool historic spot nearby.</p>
+                        <a href="https://www.google.com/maps/search/?api=1&query=Forbes+Street+Wall+Trees" target="_blank" class="map-link">📍 View on Map</a>
+                    </div>
+                </div>
+
+                <div class="activity-card">
+                    <div class="time">21:00</div>
+                    <div class="content">
+                        <h3>Return to Hotel</h3>
+                        <p>MTR back to Wan Chai</p>
+                        <a href="https://www.google.com/maps/dir/Kennedy+Town,+Hong+Kong/Wan+Chai,+Hong+Kong" target="_blank" class="map-link">📍 View Route</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Day 2 -->
+        <section class="day-section" id="day2">
+            <div class="day-header">
+                <h2>Day 2 — Saturday, 6 Dec 2025</h2>
+                <p class="theme">Heritage (Tai Kwun), AIE Expo & Kowloon Sunset</p>
+            </div>
+            <div class="timeline">
+                <div class="activity-card">
+                    <div class="time">07:30</div>
+                    <div class="content">
+                        <h3>Breakfast</h3>
+                        <p>Lan Fong Yuen (Central) - The original stall at 2 Gage Street</p>
+                        <p class="vibe-check">⭐ <strong>Essential:</strong> The legendary original stall. <strong>Must Order:</strong> Cold Silk Stocking Milk Tea & Pork Chop Bun.</p>
+                        <a href="https://www.google.com/maps/search/?api=1&query=Lan+Fong+Yuen+2+Gage+Street+Central" target="_blank" class="map-link">📍 View on Map</a>
+                    </div>
+                </div>
+
+                <div class="activity-card">
+                    <div class="time">08:15</div>
+                    <div class="content">
+                        <h3>Heritage</h3>
+                        <p>Tai Kwun (Central)</p>
+                        <p class="vibe-check">✨ <strong>New Plan:</strong> Walk 5 mins up the hill/escalator from breakfast. The compound opens at 8 AM. It's peaceful for photos of the prison yard and colonial brickwork before crowds arrive.</p>
+                        <a href="https://www.google.com/maps/search/?api=1&query=Tai+Kwun" target="_blank" class="map-link">📍 View on Map</a>
+                    </div>
+                </div>
+
+                <div class="activity-card">
+                    <div class="time">10:30</div>
+                    <div class="content">
+                        <h3>To Ferry Terminal</h3>
+                        <p>HK-Macau Ferry Terminal (Shun Tak Centre, Sheung Wan)</p>
+                        <p class="vibe-check">📝 <strong>Note:</strong> Take a taxi (~10 mins) or walk downhill to Sheung Wan. Allow time for immigration.</p>
+                        <a href="https://www.google.com/maps/search/?api=1&query=Hong+Kong+Macau+Ferry+Terminal+Sheung+Wan" target="_blank" class="map-link">📍 Shun Tak Centre</a>
+                    </div>
+                </div>
+
+                <div class="activity-card">
+                    <div class="time">11:30</div>
+                    <div class="content">
+                        <h3>Ferry to Macau</h3>
+                        <p>Cotai Water Jet (Booked)</p>
+                        <p class="vibe-check">✨ <strong>Tip:</strong> Relaxing 1-hour ride to Macau (Taipa).</p>
+                    </div>
+                </div>
+
+                <div class="activity-card">
+                    <div class="time">12:30</div>
+                    <div class="content">
+                        <h3>Macau Arrival</h3>
+                        <p>Taipa Ferry Terminal</p>
+                        <p class="vibe-check">⭐ <strong>Tip:</strong> Take the <strong>Free Blue Shuttle Bus</strong> to "The Venetian".</p>
+                        <a href="https://www.google.com/maps/search/?api=1&query=Taipa+Ferry+Terminal" target="_blank" class="map-link">📍 Taipa Terminal</a>
+                    </div>
+                </div>
+
+                <div class="activity-card">
+                    <div class="time">13:15</div>
+                    <div class="content">
+                        <h3>Lunch</h3>
+                        <p>Lord Stow's Bakery (Venetian)</p>
+                        <p class="vibe-check">⭐ <strong>Reality:</strong> Inside Grand Canal Shoppes (Unit 870). Best Portuguese Egg Tarts in Macau.</p>
+                        <a href="https://www.google.com/maps/search/?api=1&query=Lord+Stow's+Bakery+Venetian+Macau" target="_blank" class="map-link">📍 View on Map</a>
+                    </div>
+                </div>
+
+                <div class="activity-card">
+                    <div class="time">14:00</div>
+                    <div class="content">
+                        <h3>Expo Visit</h3>
+                        <p>The Venetian (Cotai Expo)</p>
+                        <p class="vibe-check">🎯 <strong>Event:</strong> <strong>AIE Expo 2025</strong> (Final Day). Located in the Expo halls inside the Venetian.</p>
+                        <a href="https://www.google.com/maps/search/?api=1&query=The+Venetian+Macao" target="_blank" class="map-link">📍 The Venetian</a>
+                    </div>
+                </div>
+
+                <div class="activity-card">
+                    <div class="time">15:15</div>
+                    <div class="content">
+                        <h3>Leave Venetian</h3>
+                        <p>Shuttle Bus to Ferry Terminal</p>
+                        <p class="vibe-check" style="color: #e63946;">⚠️ <strong>Important:</strong> You must leave the hotel West Lobby by 15:15 to clear immigration for the 16:00 boat.</p>
+                    </div>
+                </div>
+
+                <div class="activity-card">
+                    <div class="time">16:00</div>
+                    <div class="content">
+                        <h3>Ferry to HK</h3>
+                        <p>Ferry to China Ferry Terminal (Kowloon)</p>
+                        <p class="vibe-check" style="color: #e63946;">⚠️ <strong>Critical:</strong> Take the boat to <strong>Kowloon (TST)</strong> (not Sheung Wan). You arrive ~17:00.</p>
+                        <a href="https://www.google.com/maps/search/?api=1&query=China+Ferry+Terminal+Kowloon" target="_blank" class="map-link">📍 China Ferry Terminal</a>
+                    </div>
+                </div>
+
+                <div class="activity-card">
+                    <div class="time">17:30</div>
+                    <div class="content">
+                        <h3>Sunset View</h3>
+                        <p>Ocean Terminal Deck</p>
+                        <p class="vibe-check">✨ <strong>Perfect Timing:</strong> You arrive just in time for the "Golden Hour" sunset over the harbour. Free entry.</p>
+                        <a href="https://www.google.com/maps/search/?api=1&query=Ocean+Terminal+Deck+Harbour+City" target="_blank" class="map-link">📍 View on Map</a>
+                    </div>
+                </div>
+
+                <div class="activity-card">
+                    <div class="time">18:30</div>
+                    <div class="content">
+                        <h3>Walk</h3>
+                        <p>Avenue of Stars</p>
+                        <p class="vibe-check">✨ <strong>Vibe:</strong> Classic HK skyline view. Look for the handprints.</p>
+                        <a href="https://www.google.com/maps/search/?api=1&query=Avenue+of+Stars+Hong+Kong" target="_blank" class="map-link">📍 View on Map</a>
+                    </div>
+                </div>
+
+                <div class="activity-card">
+                    <div class="time">20:00</div>
+                    <div class="content">
+                        <h3>Lights Show</h3>
+                        <p>Symphony of Lights - Watch from TST waterfront promenade</p>
+                        <p class="vibe-check">⭐ <strong>Review:</strong> The show itself (lasers) is a bit underwhelming, but the atmosphere with the music and city lights is worth it.</p>
+                    </div>
+                </div>
+
+                <div class="activity-card">
+                    <div class="time">20:30</div>
+                    <div class="content">
+                        <h3>Dinner</h3>
+                        <p>Mak's Noodle (TST)</p>
+                        <p class="vibe-check">⭐ <strong>Reality:</strong> Small bowls, chewy noodles, very savory soup. Don't expect to be "stuffed" unless you order two bowls!</p>
+                        <a href="https://www.google.com/maps/search/?api=1&query=Mak's+Noodle+Tsim+Sha+Tsui" target="_blank" class="map-link">📍 View on Map</a>
+                    </div>
+                </div>
+
+                <div class="activity-card">
+                    <div class="time">21:30</div>
+                    <div class="content">
+                        <h3>Return</h3>
+                        <p>Star Ferry Pier (TST) → Wan Chai</p>
+                        <p class="vibe-check">✨ <strong>Vibe:</strong> Scenic boat ride back to Wan Chai.</p>
+                        <a href="https://www.google.com/maps/search/?api=1&query=Star+Ferry+Pier+Tsim+Sha+Tsui" target="_blank" class="map-link">📍 Star Ferry Pier</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Day 3 -->
+        <section class="day-section" id="day3">
+            <div class="day-header">
+                <h2>Day 3 — Sunday, 7 Dec 2025</h2>
+                <p class="theme">In-Town Check-in, The Peak & M+ Museum</p>
+            </div>
+            <div class="timeline">
+                <div class="activity-card">
+                    <div class="time">07:00</div>
+                    <div class="content">
+                        <h3>Check-in</h3>
+                        <p>Hong Kong Station (IFC)</p>
+                        <p class="vibe-check">⚠️ <strong>New Start:</strong> Check your bags here immediately. You are now luggage-free.</p>
+                        <a href="https://www.google.com/maps/search/?api=1&query=Hong+Kong+Station" target="_blank" class="map-link">📍 View on Map</a>
+                    </div>
+                </div>
+
+                <div class="activity-card">
+                    <div class="time">07:30</div>
+                    <div class="content">
+                        <h3>Transport</h3>
+                        <p>Taxi to Peak Tram Terminus</p>
+                        <p class="vibe-check">💡 <strong>Tip:</strong> A quick 5-10 min taxi ride from Hong Kong Station to the Tram station.</p>
+                        <a href="https://www.google.com/maps/search/?api=1&query=Peak+Tram+Lower+Terminus" target="_blank" class="map-link">📍 Peak Tram</a>
+                    </div>
+                </div>
+
+                <div class="activity-card">
+                    <div class="time">08:00</div>
+                    <div class="content">
+                        <h3>The Peak</h3>
+                        <p>Sky Terrace 428</p>
+                        <p class="vibe-check">⭐ <strong>Timing:</strong> Sky Terrace opens at 08:00 AM on Sundays. You'll be the first one there for the view.</p>
+                        <a href="https://www.google.com/maps/search/?api=1&query=Sky+Terrace+428" target="_blank" class="map-link">📍 Sky Terrace</a>
+                    </div>
+                </div>
+
+                <div class="activity-card">
+                    <div class="time">09:30</div>
+                    <div class="content">
+                        <h3>Transport</h3>
+                        <p>Taxi to West Kowloon</p>
+                        <p class="vibe-check">💡 <strong>Tip:</strong> Take a taxi from the Peak (or descend and taxi from Central) to West Kowloon Cultural District.</p>
+                        <a href="https://www.google.com/maps/search/?api=1&query=West+Kowloon+Cultural+District" target="_blank" class="map-link">📍 West Kowloon</a>
+                    </div>
+                </div>
+
+                <div class="activity-card">
+                    <div class="time">10:00</div>
+                    <div class="content">
+                        <h3>Museum</h3>
+                        <p>M+ Museum</p>
+                        <p class="vibe-check">🎨 <strong>Vibe:</strong> Opens at 10:00 AM. World-class visual culture museum. The architecture is stunning.</p>
+                        <a href="https://www.google.com/maps/search/?api=1&query=M%2B+Museum+Hong+Kong" target="_blank" class="map-link">📍 View on Map</a>
+                    </div>
+                </div>
+
+                <div class="activity-card">
+                    <div class="time">11:30</div>
+                    <div class="content">
+                        <h3>Walk</h3>
+                        <p>Walk to Kowloon Station</p>
+                        <p class="vibe-check">💡 <strong>Tip:</strong> ~10 min walk via the footbridge from M+.</p>
+                        <a href="https://www.google.com/maps/search/?api=1&query=Kowloon+Station+Airport+Express" target="_blank" class="map-link">📍 Kowloon Station</a>
+                    </div>
+                </div>
+
+                <div class="activity-card">
+                    <div class="time">11:45</div>
+                    <div class="content">
+                        <h3>Train</h3>
+                        <p>Airport Express</p>
+                        <p class="vibe-check">✨ <strong>Tip:</strong> Take the train from Kowloon Station to the Airport.</p>
+                        <a href="https://www.google.com/maps/search/?api=1&query=Kowloon+Station+Airport+Express" target="_blank" class="map-link">📍 Kowloon Station</a>
+                    </div>
+                </div>
+
+                <div class="activity-card">
+                    <div class="time">12:15</div>
+                    <div class="content">
+                        <h3>Airport</h3>
+                        <p>HK International Airport - Duty Free shopping</p>
+                        <p class="vibe-check">✨ <strong>Vibe:</strong> One of the best airports in the world. Save time for shopping before your flight.</p>
+                        <a href="https://www.google.com/maps/search/?api=1&query=Hong+Kong+International+Airport" target="_blank" class="map-link">📍 View on Map</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Have a wonderful anniversary trip! 🎉❤️</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
